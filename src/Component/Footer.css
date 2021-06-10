@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(37, 33, 33);
+    width:100%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 5em; 
+    flex-wrap: wrap;
+    color: #fff;
+    
+  }
+  h3{
+    opacity: 0.4;
+  }

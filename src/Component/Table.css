@@ -1,0 +1,47 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+th {
+  background-color: chocolate;
+}
+table tr:nth-of-type(odd) {
+  background-color: #ada7cc;
+}
+.table .main_row {
+  background-color: rgb(214, 165, 132);
+  height: 40px;
+}
+
+button {
+  display: inline-block;
+  border: 1px solid #a181cc;
+  margin-left: 10px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 5px;
+  width: 100px;
+}
+button:hover {
+  background: rgb(26, 192, 4);
+  color: white;
+}
+
+.deleteBtn:hover {
+  background: hsl(0, 96%, 49%);
+  color: white;
+}
+table {
+  margin-top: 30px;
+}
